@@ -1,9 +1,9 @@
 import React from 'react';
-import LandingPage from './element/LandingPage.js';
+import LandingPage from './LandingPage';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       < LandingPage />
     </div>
   );
