@@ -26,7 +26,7 @@ const Slideshow = () => {
     <div className="Slideshow">
       <div
         className="slideshow_wrapper"
-        style={{ transform: `translateX(-${currentIndex * 100 / 3}%)` }} // Adjust for multiple images
+        style={{ transform: `translateX(-${currentIndex * 100}%)` }} // Adjust for multiple images
       >
         {imagePaths.map((path, index) => (
           <img className="slideshow_image" key={index} src={path} alt={`img-${index}`} />
